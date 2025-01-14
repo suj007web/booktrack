@@ -27,7 +27,7 @@ await qstashClient.publishJSON({
       provider: resend({ token: config.env.resendToken as string }),
     },
     body: {
-      from: "Sujal Chauhan <sujalchauhan.in>",
+      from: "Sujal Chauhan <chauhansujal1107@gmail.com>",
       to: [email],
       subject,
       html: message,
