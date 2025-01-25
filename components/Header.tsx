@@ -38,7 +38,7 @@ const Header = ({session} : {session:Session}) => {
           >
             <Avatar className='bg-black'>
            
-              <AvatarFallback className='bg-amber-100 text-slate-800'>{getInitals(session?.user?.email as string)}</AvatarFallback>
+              <AvatarFallback className='bg-amber-100 text-slate-800'>{getInitals(session?.user?.name as string)}</AvatarFallback>
             </Avatar>
           </Link>
         </li>
